@@ -1,0 +1,193 @@
+body {
+    font-family: 'forte', Arial, sans-serif;
+    background: url('https://wallpaperaccess.com/full/1540005.jpg') 
+    no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #333;
+    overflow-y: auto;
+}
+
+h1{
+    font-family: 'algerian';
+}
+
+#container {
+    background-color: cover;
+    margin-top: -10px;
+    padding: 40px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 550px;
+    text-align: center;
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.3);
+    overflow-y: auto;
+    max-height: 600px;
+    margin-bottom: 0px;
+}
+
+#container::-webkit-scrollbar{
+    display:none
+}
+#container p{
+    font-size: 15px;
+    font-family: 'cursive';
+}
+h1 {
+    color: black;
+}
+
+#search {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 25px;
+}
+
+input {
+    flex: 1;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid silver;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.location {
+    font-size: 26px;
+    font-weight: bold;
+    color:black(217, 217, 223);
+}
+
+.temperature {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.weather-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    font-weight: bold;
+
+
+}
+
+.detail-item {
+    background: transparent;
+    background-color: #ddd;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid lightblue;
+}
+
+.label {
+    font-size: 15px;
+    color: black;
+    font-weight:bold;
+}
+
+.value {
+    font-size: 18px;
+    font-weight: bold;
+    color: midnightblue;
+}
+
+/* DAILY FORECAST */
+.daily-forecast {
+    margin-top: 15px;
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    font-weight:bold;
+
+}
+.daily-forecast::-webkit-scrollbar{
+    display:none;
+}
+
+.daily-item {
+    background: white;
+    padding: 10px;
+    min-width: 70px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* HOURLY FORECAST */
+.hourly-forecast {
+    display: flex;
+    margin-top: 18px;
+    gap: 12px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+.hourly-forecast::-webkit-scrollbar{
+    display:none;
+}
+
+.hour-item {
+    background: white;
+    padding: 12px;
+    min-width: 90px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.h-time {
+    font-weight: bold;
+    color: dodgerblue;
+}
+
+.h-icon {
+    font-size: 24px;
+    margin: 6px 0;
+}
+
+.h-temp {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.h-humidity, .h-wind {
+    font-size: 12px;
+    color: gray;
+}
+
+.message {
+    margin-top: 10px;
+    font-weight: bold;
+    color: crimson;
+}
+h2{
+    color:white;
+}
+.Description{
+    color:#ddd;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-family: 'forte';
+    font-weight: bold;
+}
+.current-icon {
+    font-size: 40px;
+}
+.current-weather-header{
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
